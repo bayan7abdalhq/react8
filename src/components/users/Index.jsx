@@ -2,7 +2,8 @@ import axios from 'axios';
 import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom';
 import { toast } from 'react-toastify';
-import Loader from '../loader.jsx';
+import Loader from '../Loader.jsx';
+
 export default function Index() {
   let[loader,setLoader] = useState(false);
 const [users,setUsers] = useState([]);

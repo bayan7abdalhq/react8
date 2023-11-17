@@ -4,7 +4,7 @@ import React, { useEffect, useState } from 'react'
 import { useNavigate, useParams } from 'react-router-dom';
 import Input from './../../shared/Input.jsx';
 import { validitionUserData } from '../../validition/uservalidition.js';
-import Loader from '../loader.jsx';
+import Loader from '../Loader.jsx';
 
 
 export default function Edit() {
